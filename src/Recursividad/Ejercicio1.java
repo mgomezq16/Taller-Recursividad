@@ -2,7 +2,17 @@ package Recursividad;
 
 import java.util.Scanner;
 
-public class Main {
+public class Ejercicio1 {
+
+    public static long calcularFactorial(int numero) {
+        // Caso base
+        if (numero == 0) {
+            return 1;
+        }
+
+        // Caso recursivo
+        return numero * calcularFactorial(numero - 1);
+    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -10,8 +20,7 @@ public class Main {
         System.out.print("Ingrese un número entero: ");
         int numero = scanner.nextInt();
 
-        Factorial factorial = new Factorial();
-        long resultado = factorial.calcular(numero);
+        long resultado = calcularFactorial(numero);
 
         System.out.println("El factorial de " + numero + " es: " + resultado);
 
