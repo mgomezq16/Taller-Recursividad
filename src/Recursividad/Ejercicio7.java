@@ -30,3 +30,4 @@ public class Ejercicio7 {
         scanner.close();
     }
 }
+//Complejidad Algoritmica BigO(log n)

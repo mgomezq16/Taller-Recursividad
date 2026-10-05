@@ -37,3 +37,4 @@ public class Ejercicio12 {
         scanner.close();
     }
 }
+//Complejidad Algoritmica BigO(2^n)
