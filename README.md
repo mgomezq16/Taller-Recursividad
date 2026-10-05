@@ -41,9 +41,8 @@ Taller-Recursividad/
 
 1. Clonar o descargar este repositorio.
 2. Abrir una terminal en la carpeta principal `Taller-Recursividad`.
-3. Crear la carpeta para los archivos compilados:
+3. Crear la carpeta para los archivos compilados: mkdir bin
 
-mkdir bin
 4. Compilar todos los ejercicios:
 
 javac -d bin src/Recursividad/*.java
