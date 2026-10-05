@@ -41,7 +41,9 @@ Taller-Recursividad/
 
 1. Clonar o descargar este repositorio.
 2. Abrir una terminal en la carpeta principal `Taller-Recursividad`.
-3. Crear la carpeta para los archivos compilados: mkdir bin
+3. Crear la carpeta para los archivos compilados:
+
+mkdir bin
 
 4. Compilar todos los ejercicios:
 
